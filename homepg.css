@@ -30,7 +30,7 @@ ul{
 }
 
 li:hover{
-    color:grey;
+    color:#C19A6B;
 }
 .header{
     display: flex;
@@ -76,7 +76,7 @@ li:hover{
 }
 
 .bg-image{
-    animation:fadein 2s ease-in;
+    animation:fadein 1s ease-in;
 }
 
 
@@ -85,6 +85,7 @@ li:hover{
 .container {
     position: relative; /* positioning of child elements */
     margin-top: 70px;
+    cursor:pointer;
     
 }
 
@@ -95,7 +96,7 @@ li:hover{
     right: 16%; /*horizontal alignment */
     color: black;
     text-align: left; /* Align text */
-    animation:fadein 3s ease-in;
+    animation:fadein 2s ease-in;
     
    
 }
@@ -166,6 +167,7 @@ li:hover{
 .brown{
     margin-top:9%;
     position:absolute;
+    cursor:pointer;
     
     
 }
