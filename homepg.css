@@ -179,7 +179,7 @@ li:hover{
 }
 
 .bite{
-    color:#c19a6be3;
+    color:#c19a6bf1;
     font-weight:bold;
     font-size:4rem;
     margin-bottom:-2%;
@@ -209,6 +209,35 @@ li:hover{
     
 }
 
+.last{
+    background-color: #6F4E37;
+    margin-top:40%;
+    width:1600px;
+    height:400px;
+    display:flex;
+}
+
+.b2,.b3,.b4{
+    margin-left: 6%;
+    margin-top:4%;
+    line-height:2.2;
+    font-size: 20px;
+    color:white;
+    font-family: Georgia;
+}
+.b1{
+    margin-left: 4%;
+    margin-top:4%;
+    line-height:2.2;
+    font-size: 20px;
+    color:white;
+    font-family: Georgia;
+}
+
+.imagee{
+    padding-left:4%;
+    padding-top:4%;
+}
 
 
 
