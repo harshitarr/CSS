@@ -1,0 +1,169 @@
+*{
+    margin:0;
+ }
+ nav{
+     font-size : 1.7rem;
+     color:white;
+     background-color: black;
+     padding:15px;
+     margin-bottom:70px;
+     
+    
+ }
+ .box{
+     width: 1600px;
+ }
+ 
+ 
+ li,ul
+ {
+ display:inline;
+ }
+ 
+ li{
+     margin-left:6%;
+     cursor: pointer;
+ }
+ 
+ ul{
+     margin-left:5%;
+ }
+
+ li:hover{
+    color:#C19A6B;
+}
+.header{
+    display: flex;
+    align-items: center; /* Aligns items vertically */
+    padding:5px;  
+}
+.one{
+    padding: 15px;
+    width: 67%; 
+    height: 30px;
+    margin-left:10px;
+    font-size:1.3rem;
+}
+.intro{
+    padding:5px;
+    display:flex;}
+
+    .box31{
+        margin-top:-4.2%;
+        
+        display:flex;
+    }
+
+    .box1 {
+
+        height: 600px;
+        width: 500px;
+        border-width: 6px;
+        border-color: #c19a6bf1;
+        border-style:solid;
+        margin-left: 0.5%;
+        
+        position: relative;
+        cursor: pointer;
+        overflow: hidden; /* Ensures content stays within the card */
+        background-color: #000; /* Fallback background */
+        z-index:1;
+    }
+    
+    .box1 .imageabout1 {
+        width: 100%;
+        height: 100%;
+        
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 0;
+    }
+    
+    .box1 .imageabout1 img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+        
+        transition: transform 0.5s ease-in-out;
+    }
+    
+    .box1:hover .imageabout1 img {
+        transform: scale(1.1); /* Zoom-in effect */
+    }
+    
+    .content1 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.6); /* Semi-transparent overlay */
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        opacity: 0; /* Initially hidden */
+        transition: opacity 0.5s ease-in-out;
+        z-index: 1;
+        text-align: center;
+        padding: 20px;
+        box-sizing: border-box;
+
+    }
+    
+    .box1:hover .content1 {
+        opacity: 1; /* Visible on hover */
+    }
+    
+    .content1 h2 {
+        margin-bottom: 16px;
+        font-size: 30px;
+        font-weight: bold;
+        font-family:Papyrus;
+    }
+    
+    .content1 p {
+        font-size: 16px;
+        line-height: 1.5;
+        font-family:Papyrus;
+        padding:3%;
+    }
+
+    .linee{
+        margin-top:-8%;
+        font-weight: bold;
+    }
+
+
+    .box2{
+        width:400px;
+        height:510px;
+        margin-left: 1%;
+        border-color: black;
+        border-width: 6px;
+        border-style: solid;
+        padding:2%;
+        line-height: 2;
+        text-align: center;
+        padding-top: 4%;
+        cursor:pointer;
+        
+        
+    }
+
+    .box2 h2{
+        font-size: 26px;
+        font-family:Papyrus ;
+        font-weight: bold;
+    }
+    
+    .box2 p{
+        font-size: 17px;
+        font-family:Papyrus ;
+        font-weight: bold;
+        
+
+    }
