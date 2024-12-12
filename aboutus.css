@@ -151,8 +151,14 @@
         padding-top: 4%;
         cursor:pointer;
         margin-right:1%;
+        background-color: #F0EAD6;
+        transition:transform 0.5s ease-in-out;
         
         
+    }
+    .box2:hover{
+        transform:scale(1.05);
+       
     }
 
     .box2 h2{
@@ -168,3 +174,74 @@
         
 
     }
+    /* Horizontal scroll container for images */
+.scrollimages {
+    display: flex;
+    overflow-x: scroll; /* Enable horizontal scrolling */
+    scroll-snap-type: x mandatory; /* Enable horizontal snapping */
+    scroll-behavior: smooth; /* Smooth scrolling */
+}
+
+/* Images inside the scroll container */
+.scroll{
+    width: 1600px; /* ithu illana scroll pannum pothu paathi image kanama poiruthu*/
+    height: 400px; 
+    scroll-snap-align: start; /* Snap the images to the start of the container */
+}
+
+.can{
+    border-top:3px solid #C19A6B;
+    border-bottom:3px solid #C19A6B;
+
+    margin-top:5%;
+    display:flex;
+    width:1500px;
+    height:400px;
+    cursor:pointer;
+}
+
+.icon-circle {
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    background-color:#C19A6B;
+    border-radius: 50%;
+    color:white;
+    width:50px;
+    height:50px;
+    font-size:24px;
+    margin-top:40px;
+    margin-left:15px;
+}
+
+.last{
+    background-color: #6F4E37;
+    margin-top:4.5%;
+    width:1600px;
+    height:400px;
+    display:flex;
+}
+
+.b2,.b3,.b4{
+    margin-left: 6%;
+    margin-top:4%;
+    line-height:2.2;
+    font-size: 20px;
+    color:white;
+    font-family: Georgia;
+}
+.b1{
+    margin-left: 4%;
+    margin-top:4%;
+    line-height:2.2;
+    font-size: 20px;
+    color:white;
+    font-family: Georgia;
+}
+
+.imagee{
+    padding-left:4%;
+    padding-top:4%;
+}
+
+
