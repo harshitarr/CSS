@@ -20,6 +20,11 @@ li,ul
 display:inline;
 }
 
+li a {
+    text-decoration: none; /* Remove underline from links */
+    color: white; /* Set default text color to white */
+}
+
 li{
     margin-left:6%;
     cursor: pointer;
@@ -28,6 +33,10 @@ li{
 ul{
     margin-left:5%;
 }
+li a:hover{
+    color:#C19A6B;
+}
+
 
 li:hover{
     color:#C19A6B;

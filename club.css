@@ -1,0 +1,168 @@
+*{
+    margin:0;
+ }
+ nav{
+     font-size : 1.7rem;
+     color:white;
+     background-color: black;
+     padding:15px;
+     margin-bottom:70px;
+     
+    
+ }
+ .box{
+     width: 1600px;
+ }
+ 
+ 
+ li,ul
+ {
+ display:inline;
+ }
+ 
+ li a {
+     text-decoration: none; /* Remove underline from links */
+     color: white; /* Set default text color to white */
+ }
+ 
+ li{
+     margin-left:6%;
+     cursor: pointer;
+ }
+ 
+ ul{
+     margin-left:5%;
+ }
+ li a:hover{
+     color:#C19A6B;
+ }
+ 
+ 
+ li:hover{
+     color:#C19A6B;
+ }
+ .header{
+     display: flex;
+     align-items: center; /* Aligns items vertically */
+     padding:5px;  
+ }
+ .one{
+     padding: 15px;
+     width: 67%; 
+     height: 30px;
+     margin-left:10px;
+     font-size:1.3rem;
+ }
+ .intro{
+     padding:5px;
+     display:flex;
+     /*background-color: rgba(3, 130, 3, 0.453);*/
+ 
+ }
+
+ 
+ .nav-wrapper{
+     margin-bottom:0px;
+ }
+
+ .splash{
+    display:flex;
+    width:90%;
+    /*height:60vh;*/
+    overflow:hidden;
+    justify-content: center;
+    align-items:center;
+    min-height:100vh;
+    margin-top:3%;
+    padding-left:80px;
+    
+ }
+
+ .card{
+    flex:1;
+    height:100%;
+    transition:all 1s ease;
+    cursor:pointer;
+    position:relative;
+    margin-left:2%;
+
+ }
+
+
+ .card img{
+    width: 90%;
+    height:90%;
+    object-fit:cover;
+    display:block;
+ }
+
+ .card:nth-child(odd){
+    transform: translateY(-20px);
+ }
+
+ .card:nth-child(even){
+    transform: translateY(20px);
+ }
+
+ .card:hover{
+    flex:2.6;
+    transform:translateY(0);
+ }
+
+
+ .foodfest{
+
+    text-align:center;
+    padding-top:80px;
+    font-size: 60px;
+    margin-bottom:-80px; 
+    color:#8b4653;
+    font-family:garamond;
+ }
+
+ .bg{
+    background-image: url("file:///C:/Users/HarshitaRR/Desktop/CSS/cafeclub/pink.png");
+
+
+ }
+
+
+ .container{
+    perspective: 1500px;
+    height:400px;
+    width:400px;
+    
+ }
+
+ .card2{
+    width:100%;
+    height:100%;
+    position:relative;
+    transform-style : preserve-3d;
+    transition:transform 0.6s ease-in-out;
+    margin-left:70pc;
+ }
+
+ .front,.back{
+    height:100%;
+    width:100%;
+    position:absolute;
+    backface-visibility:hidden;
+    display:flex;
+    align-items: right;
+    justify-content:right;
+    
+ }
+
+ .front{
+    background-color: #8b4653;
+ }
+
+ .back{
+    transform:rotateY(180deg);
+    background-color: blue;
+ }
+
+ .card2:hover{
+    transform:rotateY(180deg);
+ }
