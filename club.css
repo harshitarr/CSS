@@ -121,7 +121,7 @@
  }
 
  .bg{
-    background-image: url("file:///C:/Users/HarshitaRR/Desktop/CSS/cafeclub/pink.png");
+    background-image: url('cafeclub/purple2.png');
 
 
  }
@@ -155,6 +155,9 @@
  .front{
    background-color: #8b4653;
  }
+
+ 
+
 
  .back{
    background-color: #C19A6B;
