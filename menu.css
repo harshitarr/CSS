@@ -1,0 +1,164 @@
+*{
+    margin:0;
+ }
+ nav{
+     font-size : 1.7rem;
+     color:white;
+     background-color: black;
+     padding:15px;
+     margin-bottom:70px;
+     
+    
+ }
+ .box{
+     width: 1600px;
+ }
+ 
+ 
+ li,ul
+ {
+ display:inline;
+ }
+ 
+ li a {
+     text-decoration: none; /* Remove underline from links */
+     color: white; /* Set default text color to white */
+ }
+ 
+ li{
+     margin-left:6%;
+     cursor: pointer;
+ }
+ 
+ ul{
+     margin-left:5%;
+ }
+ li a:hover{
+     color:#C19A6B;
+ }
+ 
+ 
+ li:hover{
+     color:#C19A6B;
+ }
+ .header{
+     display: flex;
+     align-items: center; /* Aligns items vertically */
+     padding:5px;  
+ }
+ .one{
+     padding: 15px;
+     width: 67%; 
+     height: 30px;
+     margin-left:10px;
+     font-size:1.3rem;
+ }
+ .intro{
+     padding:5px;
+     display:flex;
+     /*background-color: rgba(3, 130, 3, 0.453);*/
+ 
+ }
+ /*.head{
+     font-family:"Lucida Handwriting", cursive;;
+     font-size:1.5rem;
+     background-color:#F2F0DF;
+     /*background-color:#7C9D8E;
+     margin-left:5px;
+     width:400px;
+     padding:40px;
+     border-color:black;
+     border-width:8px;
+     border-style:double;*/
+ }
+ .nav-wrapper{
+     margin-bottom:0px;
+ }
+ 
+ @keyframes fadein{
+     from{
+         opacity:0;
+     }
+     to{
+         opacity:1;
+     }
+ }
+ 
+ .bg-image{
+     animation:fadein 1s ease-in;
+ }
+ 
+
+button
+     {
+        font-size: 10px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        display: inline-block;
+        text-align: center;
+        font-weight: bold;
+        
+        border: 3px solid #674130;
+        border-radius: 2px;
+        position: relative;
+
+        color:#674130;
+        text-decoration: none;
+        transition: 0.3s ease all;
+        z-index: 1;
+        height:35px;
+        width:137px;
+     }
+
+
+      
+      button:hover, button:focus {
+        color: white;
+        background-color:#674130;
+      }
+      
+
+      
+      button:active {
+        transform: scale(0.9);
+      }
+    
+
+      .boxy:hover{
+        transform:scale(1.06);
+      }
+
+      .boxy{
+        transition : 0.3s ease-in-out;
+      }
+
+      
+.last{
+    background-color: #6F4E37;
+    margin-top:4.5%;
+    width:1600px;
+    height:400px;
+    display:flex;
+}
+
+.b2,.b3,.b4{
+    margin-left: 6%;
+    margin-top:4%;
+    line-height:2.2;
+    font-size: 20px;
+    color:white;
+    font-family: Georgia;
+}
+.b1{
+    margin-left: 4%;
+    margin-top:4%;
+    line-height:2.2;
+    font-size: 20px;
+    color:white;
+    font-family: Georgia;
+}
+
+.imagee{
+    padding-left:4%;
+    padding-top:4%;
+}
