@@ -184,20 +184,44 @@
         
 
     }
-    /* Horizontal scroll container for images */
+
+.scrollcontainer{
+    width:1520px;
+    overflow:hidden;
+    margin-bottom:1%;
+
+}
 .scrollimages {
-    display: flex;
-    overflow-x: scroll; /* Enable horizontal scrolling */
-    scroll-snap-type: x mandatory; /* Enable horizontal snapping */
-    scroll-behavior: smooth; /* Smooth scrolling */
+
+    width:100%;
+    display:flex;
+   animation: slide 6s infinite;
+  
 }
 
-/* Images inside the scroll container */
-.scroll{
-    width: 1520px; /* ithu illana scroll pannum pothu paathi image kanama poiruthu*/
-    height: 380px; 
-    scroll-snap-align: start; /* Snap the images to the start of the container */
+.scrollimages img{
+    width:1520px;
+    height:360px;
+    flex:0 0 100%;
+    transition:tranform 0.5s ease-in-out;
+
 }
+
+@keyframes slide{
+    0% {transform :translateX(0);}
+    20% {transform :translateX(0);}
+    25% {transform :translateX(-100%);}
+    45% {transform :translateX(-100%);}
+    50% {transform :translateX(-200%);}
+    70% {transform :translateX(-200%);}
+    75% {transform :translateX(-300%);}
+    95% {transform :translateX(-300%);}
+    100% {transform :translateX(-300%);}
+}
+
+
+
+
 
 .can{
     border-top:3px solid #C19A6B;

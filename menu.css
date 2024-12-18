@@ -74,20 +74,47 @@
  .nav-wrapper{
      margin-bottom:0px;
  }
- 
- @keyframes fadein{
-     from{
-         opacity:0;
-     }
-     to{
-         opacity:1;
-     }
+
+ .containerani{
+    width:1520px;
+    overflow:hidden;
+    margin-bottom:0.2%;
+
+ }
+
+ .sliderani{
+    width:100%;
+    display:flex;
+    animation:slide 6s infinite;
+
+
+ }
+
+ .sliderani img{
+    width:1520px;
+    height:360px;
+    flex: 0 0 100%;
+    transition:tranform 0.5s ease-in-out;
+
  }
  
- .bg-image{
-     animation:fadein 1s ease-in;
+ @keyframes slide{
+
+    0% {transform : translateX(0);}
+    20% {transform : translateX(0);}
+    25% {transform : translateX(-100%);}
+    45% {transform : translateX(-100%);}
+    50% {transform : translateX(-200%);}
+    70% {transform : translateX(-200%);}
+    75% {transform : translateX(-300%);}
+    95% {transform : translateX(-300%);}
+    100% {transform : translateX(-300%);}
+
+
  }
+
  
+
 
 button
      {
